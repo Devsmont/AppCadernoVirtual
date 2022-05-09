@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Selecao.TerceiroPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                              <!-- Terceiro Ano -->
+            <Label  Text="Terceiro Ano"    HorizontalOptions="Center"/>
+            <Button Text="Português"       Clicked="Button_3Port"    />
+            <Button Text="Matematica"      Clicked="Button_3Mat"     />
+            <Button Text="Geografia"       Clicked="Button_3Geo"     />
+            <Button Text="História"        Clicked="Button_3Hist"    />
+            <Button Text="Biologia"        Clicked="Button_3Bio"     />
+            <Button Text="Educação Física" Clicked="Button_3Edu"     />
+            <Button Text="Filosofia"       Clicked="Button_3Fil"     />
+            <Button Text="Física"          Clicked="Button_3Fis"     />
+            <Button Text="Química"         Clicked="Button_3Qui"     />
+            <Button Text="Inglês"          Clicked="Button_3Ing"     />
+            <Button Text="Sociologia"      Clicked="Button_3Socio"   />
+                             <!-- Cursos Terceiro -->
+
+            <Button Text="Progamação Web III"             Clicked="Button_3Web"      />
+            <Button Text="Sistemas Internet"              Clicked="Button_Internet"  />
+            <Button Text="Mobile II"                      Clicked="Button_3Mob"      />
+            <Button Text="TCC"                            Clicked="Button_TCC"       />
+            <Button Text="Qualidade de Teste de Software" Clicked="Button_QualTeste" />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

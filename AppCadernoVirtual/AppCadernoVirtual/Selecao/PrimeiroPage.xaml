@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.PrimeiroPage">
+    <ContentPage.Content>
+        <ScrollView> 
+        <StackLayout>
+            <!-- Descrição de Button e Label na MainPage-->
+            <!-- Aqui usamos Labels e Buttons para que possamos fazer a seleção da matéria-->
+                                        <!-- Primeiro Ano -->
+            <Label  Text="Primeiro Ano"    HorizontalOptions="Center" />
+            <Button Text="Português"       Clicked="Button_1Port"     />
+            <Button Text="Matematica"      Clicked="Button_1Mat"      />
+            <Button Text="Geografia"       Clicked="Button_1Geo"      />
+            <Button Text="História"        Clicked="Button_1Hist"     />
+            <Button Text="Biologia"        Clicked="Button_1Bio"      />
+            <Button Text="Educação Física" Clicked="Button_1Edu"      />
+            <Button Text="Filosofia"       Clicked="Button_1Filo"     />
+            <Button Text="Física"          Clicked="Button_1Fisi"     />
+            <Button Text="Artes"           Clicked="Button_1Arte"     />
+            <Button Text="Química"         Clicked="Button_1Quim"     />
+            <Button Text="Inglês"          Clicked="Button_1Ing"      />
+                                       <!-- Cursos Primeiro -->
+            <Button Text="Analise de projeto de sistema" Clicked="Button_Analise" />
+            <Button Text="Progamação Web"                Clicked="Button_1ProgWeb"/>
+            <Button Text="Banco de Dados"                Clicked="Button_1BD"     />
+            <Button Text="Design"                        Clicked="Button_Des"     />
+            <Button Text="Fundamentos da Informatica"    Clicked="Button_FundInfo"/>
+            <Button Text="Lógica e prog de Algoritimo"   Clicked="Button_Log"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

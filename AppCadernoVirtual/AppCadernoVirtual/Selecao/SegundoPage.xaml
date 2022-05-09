@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Selecao.SegundoPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                                <!-- Segundo Ano -->
+            <Label  Text="Segundo Ano"     HorizontalOptions="Center"/>
+            <Button Text="Português"       Clicked="Button_2Port"    />
+            <Button Text="Matematica"      Clicked="Button_2Mat"     />
+            <Button Text="Geografia"       Clicked="Button_2Geo"     />
+            <Button Text="História"        Clicked="Button_2Hist"    />
+            <Button Text="Biologia"        Clicked="Button_2Bio"     />
+            <Button Text="Educação Física" Clicked="Button_2Edu"     />
+            <Button Text="Filosofia"       Clicked="Button_2Fil"     />
+            <Button Text="Física"          Clicked="Button_2Fis"     />
+            <Button Text="Ética"           Clicked="Button_Eti"      />
+            <Button Text="Química"         Clicked="Button_2Qui"     />
+            <Button Text="Inglês"          Clicked="Button_2Ing"     />
+            <Button Text="Sociologia"      Clicked="Button_2Socio"   />
+                               <!-- Cursos Segundo -->
+            <Button Text="Banco de Dados"       Clicked="Button_2BD"     />
+            <Button Text="Progamação Web II"    Clicked="Button_2Web"    />
+            <Button Text="Sistemas Embarcados"  Clicked="Button_SisEmb"  />
+            <Button Text="Mobile"               Clicked="Button_Mob" />
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
